@@ -1,0 +1,91 @@
+.panel-group .panel{
+  border-radius: 0px;
+  border:0px none;
+  box-shadow: none;
+}
+.panel-heading{
+  padding: 0;
+  box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.4)
+}
+.panel-title{
+  position: relative;
+}
+.panel-title > a{
+  border:1px solid #ffffff;
+  display: block;
+  background: #ffffff;
+  color:#4d4d4d;
+  padding: 0 45px 0 0;
+}
+.panel-title > a:hover,a:focus{
+  text-decoration: none;
+  outline: none;
+  color:#fffbf2;
+ 
+  transition: 1s;
+}
+
+.panel-title .left-icon{
+  border-right:1px solid rgb(206, 204, 204);
+  font-size: 24px;
+  color:rgb(253, 152, 0);
+  
+  width: 40px;
+  padding: 13px 0;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+}
+.panel-title a:after{
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+  float: right;
+  font-size: 20px;
+  margin-right: 20px;
+  color:rgb(211, 147, 29);
+  position: absolute;
+  top:15px;
+  right:0;
+  display: inline-block;
+}
+.panel-title .collapsed:after{
+  content: "\f067";
+  color:#ffa600;
+}
+.panel-title .collapsed{
+  background: #fff;
+  color:#6d6d6d;
+  border-color:lightgray;
+}
+.panel-title .collapsed .left-icon{
+  color:#ffa600;
+  border-color:lightgray;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body{
+  border-top:0px none;
+}
+.bg1
+{
+padding-top: 40px;
+padding-bottom:40px;
+  background:linear-gradient(45deg,#62c8df85,#2171e28a);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  min-height:100vh;
+}
+.panel-body
+{
+  background: #fcfcfc;
+  padding: 15px;
+  
+}
+   
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: none;
+  }
+}

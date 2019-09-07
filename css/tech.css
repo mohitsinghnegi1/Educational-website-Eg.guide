@@ -1,0 +1,62 @@
+
+    *
+    {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      
+    }
+    body
+    {
+      background: #fff;
+    }
+    .qus{
+      
+      text-transform: capitalize;
+    }
+    h1{
+      
+      font-family:'Times New Roman', Times, serif;
+      
+      letter-spacing: 2px;
+    }
+    p{
+      letter-spacing: 1px;
+    }
+    code
+    {
+      
+      border-left:4px solid #36c4d0; 
+      font-size:14px!important;
+      box-shadow:0 3px 6px rgba(0, 0, 0, 0.2);
+      min-height:auto;
+      min-width: 560px!important;
+      
+    }
+    p{
+      margin:0px;
+    }
+   
+    strong
+    {
+      font-size: 1.3rem;
+      font-weight: bolder;
+    }
+    code{
+      
+      padding-top:20px!important;
+     overflow: auto;
+     min-width:550px;
+     text-align:initial;
+    }
+    pre{
+      margin-bottom: 0px;
+      
+    }
+    
+    .container-fluid .row .col-md-12{
+    background: rgb(243, 247, 247);
+    min-width:390px;
+
+    }
+  
